@@ -92,7 +92,7 @@ const Navigation = () => {
           // Default options for specific types
         }}
       />
-      <Link href='https://drive.google.com/file/d/1dI7cy-dbOXZ1rJSihgw6Yr3NokrB13bK/view' download={'resume'} target="_blank">
+      <Link href='https://drive.google.com/file/d/1YtNmZjhRdOAJ4Pb5A1vj6JPhho_gPbxR/view?usp=sharing' download={'resume'} target="_blank">
         <button
           // onClick={notify}
           className='flex gap-1 p-2 px-2.5 justify-center items-center rounded-md bg-zinc-200/10 text-zinc-400 hover:text-neutral-100 shadow-md select-none hover:brightness-150 active:scale-90 ease-linear duration-100 cursor-pointer font-noto  '

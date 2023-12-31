@@ -2,6 +2,7 @@
 import minia2oj from "../public/img/projects-preview/minia2oj.png";
 import xcrypto from "../public/img/projects-preview/xcrypto.png";
 // import modifo from "../public/img/projects-preview/modifo.png";
+import chess from "../public/img/projects-preview/chess.png";
 import colorgen from "../public/img/projects-preview/colorgen.png";
 import twinster from "../public/img/projects-preview/twinster.png";
 import wordoid from "../public/img/projects-preview/wordoid.png";
@@ -16,6 +17,15 @@ interface projects_data_type {
 }
 
 export const projects_data: projects_data_type[] = [
+  {
+    name: "Tactical Tide",
+    tags: ["React", "Node.js", "MongoDB", "Socket.io", "Chess.js"],
+    description:
+      "An Online Multiplayer Chess Game, where you can play against your friends or computer ",
+    github: "https://github.com/krtk-097/Tactical-Tide",
+    demo: "",
+    link: chess,
+  },
   {
     name: "Wordoid",
     tags: [
@@ -66,7 +76,7 @@ export const projects_data: projects_data_type[] = [
   },
   {
     name: "Color Generator",
-    tags: ["Next.js", "React", "Colortheif"],
+    tags: ["Next.js", "React", "Colortheif", "TailwindCSS"],
     description: `A next.js project for generating color palette from the images`,
     github: "https://github.com/krtk-097/Color-Gen",
     demo: "https://color-gen-orpin.vercel.app/",

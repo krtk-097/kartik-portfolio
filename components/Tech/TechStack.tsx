@@ -25,14 +25,17 @@ import nj from '../../public/img/frameworks/nj.png';
 import rd from '../../public/img/frameworks/rd.png';
 import rj from '../../public/img/frameworks/rj.png';
 import rn from '../../public/img/frameworks/rn.png';
+import socketio from '../../public/img/frameworks/socketio.png';
 import tc from '../../public/img/frameworks/tc.png';
 //Icons --> Developer Tool's
 // import { SiMysql } from "react-icons/si";
+import { SiGitlab } from "react-icons/si";
 import canva from '../../public/img/tools/canva.png';
 import expo from '../../public/img/tools/expo.png';
 import figma from '../../public/img/tools/figma.png';
 import git from '../../public/img/tools/git.png';
 import github from '../../public/img/tools/github.png';
+import gitlab from '../../public/img/tools/gitlab.png';
 import postman from '../../public/img/tools/postman.png';
 import vercel from '../../public/img/tools/vercel.png';
 import vsc from '../../public/img/tools/vsc.png';
@@ -68,6 +71,7 @@ const TechStack = () => {
           <Badge link={rd} text="Redux" />
           <Badge link={fb} text="Firebase" />
           <Badge link={jest} text="Jest" />
+          <Badge link={socketio} text="Socket.io" />
         </div>
         <div className="text-[#7d7d85]">Familiar With</div>
         <div className="flex flex-row flex-wrap pt-1 pb-3">
@@ -79,6 +83,7 @@ const TechStack = () => {
         <div className="flex flex-row flex-wrap pt-1 pb-3">
           <Badge link={git} text="Git" />
           <Badge link={github} text="GitHub" />
+          <Badge link={gitlab} text="GitLab" />
           <Badge link={vsc} text="VsCode" />
           <Badge link={vercel} text="Vercel" />
           <Badge link={postman} text="Postman" />

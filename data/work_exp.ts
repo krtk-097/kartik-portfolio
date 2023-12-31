@@ -13,7 +13,7 @@ export const work_exp: workTypes[] = [
   {
     name: "GeeksForGeeks",
     cer_link: "https://www.geeksforgeeks.org/",
-    date: "Aug 2023 - Present",
+    date: "Aug 2023 - Jan 2024",
     proj: "",
     proj_link: "",
     description: "",
